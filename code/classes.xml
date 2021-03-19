@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8">
+<classes>
+	<class name="Barbarian">
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<heal percent="2" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<attack percent="3" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<critical percent="2" />
+		<split>
+			<branch>
+				<health value="36" />
+			</branch>
+			<branch>
+				<attack value="15" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<health value="36" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+		</split>
+		<attack value="15" />
+		<split>
+			<branch>
+				<mana percent="2" />
+			</branch>
+			<branch>
+				<defense percent="3" />
+			</branch>
+		</split>
+		<health percent="4" />
+	</class>
+</classes>
