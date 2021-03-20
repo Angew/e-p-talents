@@ -76,6 +76,167 @@
 		</split>
 		<health percent="4" />
 	</class>
+	<!--
+	===================================================================
+	-->
+	<class name="Cleric">
+		<talent />
+		<split>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<attack value="15" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<attack value="15" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<attack percent="3" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<defense percent="3" />
+				<attack value="15" />
+			</branch>
+		</split>
+		<health percent="3" />
+		<split>
+			<branch>
+				<defense value="18" />
+			</branch>
+			<branch>
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<health value="36" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<health value="36" />
+		<split>
+			<branch>
+				<critical percent="2" />
+			</branch>
+			<branch>
+				<mana percent="2" />
+			</branch>
+		</split>
+		<heal percent="4" />
+	</class>
+	<!--
+	===================================================================
+	-->
+	<class name="Druid">
+		<talent />
+		<split>
+			<branch>
+				<health value="36" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<heal percent="2" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<attack percent="3" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<health percent="3" />
+		<split>
+			<branch>
+				<attack value="15" />
+			</branch>
+			<branch>
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<attack value="15" />
+			</branch>
+		</split>
+		<health value="36" />
+		<split>
+			<branch>
+				<critical percent="2" />
+			</branch>
+			<branch>
+				<defense percent="3" />
+			</branch>
+		</split>
+		<mana percent="4" />
+	</class>
+	<!--
+	===================================================================
+	-->
 	<class name="Fighter">
 		<talent />
 		<split>
@@ -152,6 +313,9 @@
 		</split>
 		<attack percent="4" />
 	</class>
+	<!--
+	===================================================================
+	-->
 	<class name="Monk">
 		<talent />
 		<split>
@@ -227,5 +391,401 @@
 			</branch>
 		</split>
 		<mana percent="2" />
+	</class>
+	<!--
+	===================================================================
+	-->
+	<class name="Paladin">
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<health value="36" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<health percent="3" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<heal percent="2" />
+				<health value="36" />
+			</branch>
+		</split>
+		<attack percent="3" />
+		<split>
+			<branch>
+				<attack value="15" />
+			</branch>
+			<branch>
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<attack value="15" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<attack value="15" />
+			</branch>
+		</split>
+		<defense value="18" />
+		<split>
+			<branch>
+				<mana percent="2" />
+			</branch>
+			<branch>
+				<critical percent="2" />
+			</branch>
+		</split>
+		<defense percent="4" />
+	</class>
+	<!--
+	===================================================================
+	-->
+	<class name="Ranger">
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<defense percent="3" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<mana percent="2" />
+				<health value="36" />
+			</branch>
+		</split>
+		<attack percent="3" />
+		<split>
+			<branch>
+				<defense value="18" />
+			</branch>
+			<branch>
+				<attack value="15" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<attack value="15" />
+		<split>
+			<branch>
+				<health percent="3" />
+			</branch>
+			<branch>
+				<heal percent="2" />
+			</branch>
+		</split>
+		<critical percent="4" />
+	</class>
+	<!--
+	===================================================================
+	-->
+	<class name="Rogue">
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<health percent="3" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<mana percent="2" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<attack percent="3" />
+		<split>
+			<branch>
+				<health value="36" />
+			</branch>
+			<branch>
+				<attack value="15" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<health value="36" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+		</split>
+		<attack value="15" />
+		<split>
+			<branch>
+				<defense percent="3" />
+			</branch>
+			<branch>
+				<heal percent="2" />
+			</branch>
+		</split>
+		<critical percent="4" />
+	</class>
+	<!--
+	===================================================================
+	-->
+	<class name="Sorcerer">
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<attack value="15" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<attack value="15" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<heal percent="2" />
+				<defense percent="3" />
+			</branch>
+			<branch>
+				<critical percent="2" />
+				<attack value="15" />
+			</branch>
+		</split>
+		<health percent="3" />
+		<split>
+			<branch>
+				<health value="36" />
+			</branch>
+			<branch>
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+		</split>
+		<defense value="18" />
+		<split>
+			<branch>
+				<attack percent="3" />
+			</branch>
+			<branch>
+				<defense percent="3" />
+			</branch>
+		</split>
+		<mana percent="4" />
+	</class>
+	<!--
+	===================================================================
+	-->
+	<class name="Wizard">
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<health percent="3" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<defense percent="3" />
+				<health value="36" />
+			</branch>
+		</split>
+		<critical percent="2" />
+		<split>
+			<branch>
+				<defense value="18" />
+			</branch>
+			<branch>
+				<attack value="15" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<attack value="15" />
+				<health value="36" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<talent />
+		<split>
+			<branch>
+				<defense value="18" />
+				<attack value="15" />
+			</branch>
+			<branch>
+				<health value="36" />
+				<defense value="18" />
+			</branch>
+		</split>
+		<attack value="15" />
+		<split>
+			<branch>
+				<heal percent="2" />
+			</branch>
+			<branch>
+				<mana percent="2" />
+			</branch>
+		</split>
+		<attack percent="4" />
 	</class>
 </classes>
