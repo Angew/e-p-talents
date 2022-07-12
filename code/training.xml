@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tiers>
+	<tier name="3">
+		<ascension>9528</ascension>
+		<ascension>15105</ascension>
+		<ascension>25825</ascension>
+	</tier>
+	<tier name="4">
+		<ascension>15780</ascension>
+		<ascension>25536</ascension>
+		<ascension>42555</ascension>
+		<ascension>83721</ascension>
+	</tier>
+	<tier name="5">
+		<ascension>26810</ascension>
+		<ascension>48455</ascension>
+		<ascension>104815</ascension>
+		<ascension>173484</ascension>
+	</tier>
+</tiers>
