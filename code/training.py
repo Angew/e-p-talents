@@ -63,16 +63,17 @@ def compute(ascensions, steps, num_runs, step):
     for run in range(num_runs):
         asc = ascensions[:]
         level = 1
-        while asc:
+        while asc and level < 8:
             do_steps = min(steps, math.ceil(asc[0] / step.xp))
             if random.randrange(100) < do_steps*step.chance:
                 level += 1
-            if level == 8:
-                successes += 1
-                break
             asc[0] -= do_steps*step.xp
             if asc[0] <= 0:
                 del asc[0]
+                level += 1
+        if level >= 8:
+            successes += 1
+            level = 8
         levels += level
 
     print("Steps:", steps, "Odds of maxing:", successes/num_runs*100, "Average level:", levels/num_runs)
