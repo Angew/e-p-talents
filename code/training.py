@@ -58,6 +58,7 @@ steps = {
 
 def compute(ascensions, steps, num_runs, step):
     successes = 0
+    levels = 0
 
     for run in range(num_runs):
         asc = ascensions[:]
@@ -72,8 +73,9 @@ def compute(ascensions, steps, num_runs, step):
             asc[0] -= do_steps*step.xp
             if asc[0] <= 0:
                 del asc[0]
+        levels += level
 
-    print("Steps:", steps, " Odds of maxing:", successes/num_runs*100)
+    print("Steps:", steps, "Odds of maxing:", successes/num_runs*100, "Average level:", levels/num_runs)
 
 
 def main(argv):
