@@ -204,12 +204,12 @@
 		<talent />
 		<split>
 			<branch>
-				<defense value="18" />
-				<attack value="15" />
-			</branch>
-			<branch>
 				<health value="36" />
 				<defense value="18" />
+			</branch>
+			<branch>
+				<defense value="18" />
+				<attack value="15" />
 			</branch>
 		</split>
 		<talent />
